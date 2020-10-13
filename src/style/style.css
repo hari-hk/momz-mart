@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body {
+  height: 100%;
+  width: 100%;
+  background: #ececec;
+}
+
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container-fluid .title {
+  padding: 20px;
+  text-align: center;
+}
+
+.container-fluid .title h1 {
+  padding: 10px;
+  color: #069163;
+  font-size: 49px;
+  font-family: "Dancing Script", cursive;
+}
+
+.container-fluid .title p {
+  padding: 0 10px;
+  color: #069163;
+  font-size: 20px;
+}
+
+.container-fluid .title input {
+  padding: 10px;
+  border: 1px solid #069163;
+  border-radius: 7px;
+  width: 60%;
+}
+
+.container-fluid .title button {
+  padding: 10px;
+  border: 1px solid #069163;
+  border-radius: 7px;
+  min-width: 100px;
+  background: #fff;
+  color: #069163;
+  font-weight: 600;
+  margin: 5px 10px;
+}
+
+.container-fluid .title button i {
+  margin: 0 3px;
+}
+
+.container-fluid .title .call {
+  background: #069163;
+  color: #fff;
+}
+
+@media only screen and (max-width: 400px) {
+  .container-fluid .title input {
+    width: 100% !important;
+  }
+}
+
+.container-fluid .menu {
+  background: #069163;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.container-fluid .menu h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+  margin: 0;
+}
+
+.container-fluid .menu ul {
+  list-style: none;
+  margin: 0;
+}
+
+.container-fluid .menu ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container-fluid .menu ul li:hover {
+  font-weight: 700;
+}
+
+.container-fluid .category {
+  background: #ececec;
+  width: 100%;
+  padding: 25px 10px;
+  margin: 0;
+}
+
+.container-fluid .category .category-item {
+  padding: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  height: 250px;
+  width: 250px;
+}
+
+.container-fluid .category .category-item img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 7px;
+}
+
+.container-fluid .category .category-item button {
+  background: #fff;
+  color: #069163;
+  position: absolute;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 7px 13px;
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.container-fluid .about {
+  padding: 25px 10px;
+}
+
+.container-fluid .about h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #069163;
+}
+
+.container-fluid .about p {
+  text-indent: 10px;
+  font-size: 18px;
+  color: #3d4041;
+  text-align: justify;
+}
+
+.container-fluid .contact {
+  background: #ececec;
+  padding: 25px 10px;
+}
+
+.container-fluid .contact h5 {
+  font-weight: bold;
+}
+
+.container-fluid .contact .rating-from .btn {
+  width: 100%;
+  background: #069163;
+  color: #fff;
+}
+
+.container-fluid .contact .rating-from .star-list {
+  color: #de6d0c;
+  font-size: 16px;
+}
+
+.container-fluid .contact .item {
+  background: #fff;
+  padding: 9px;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.container-fluid .contact .item h6 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+}
+
+.container-fluid .contact .item .star-list {
+  color: #de6d0c;
+}
+
+.container-fluid .contact .item .comment {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer {
+  background: #069163;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+.footer .address p {
+  margin: 0;
+  font-style: 12px;
+}
+
+.footer .brand-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.footer .social-network p {
+  margin: 0;
+  padding-right: 20px;
+}
+
+.footer .social-network .icons a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5px;
+}
+
+.product-list {
+  background: #ececec;
+  width: 100%;
+  min-height: calc(100vh - 300px);
+  margin: 10px !important;
+}
+
+.product-list .product-card {
+  width: 100%;
+  padding: 10px;
+}
+
+.product-list .product-card .product {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.product-list .product-card .product img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-list .product-card .product h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.product-list .product-card .product p {
+  font-size: 13px;
+  margin: 0;
+  padding: 0 10px 10px 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.product-list .product-card .product p del {
+  margin-left: 10px;
+}
+
+.product-list .product-card .product p span {
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
